@@ -8,3 +8,16 @@ Output
 Print the message "PROD" and PROD according to the following example, with a blank space before and after the equal signal.
 */
 
+#include <iostream>
+
+int main() {
+    int n1, n2, PROD;
+    std::cin >> n1;
+    std::cin >> n2;
+    
+    PROD = n1 * n2;
+    
+    std::cout << "PROD = " << PROD << std::endl;
+    
+    return 0;
+}
